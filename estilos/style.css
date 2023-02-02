@@ -27,13 +27,14 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     background-color: #c5e3fc;
     width: 250px;
-    height: 520px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 1px 1px 10px #71B2E8 ;
+    transform: translate(-50%, -50%);
     transition: width 1s, heigth 1s;
     
 }
@@ -68,14 +69,12 @@ color: white;
 border: none;
 border-radius: 5px;
 cursor: pointer;
+}
 
-}
-form > div.campo {
-    margin: 10px 0px;
-}
 form > input[type=submit]:hover{
     background-color:#0c5ea1 ;
 }
+
 form > a.botao{
 display: block;
 font-size: 1em;
@@ -95,6 +94,20 @@ form >a.botao:hover{
     background-color:#08276A;
     color: white;
 }
+
 form > a.botao > span{
     font-size: 1em;
+}
+
+
+div.campo > input{
+    font-size: 1em;
+    width: calc(100% - 50px);
+    border-radius: 10px;
+    height:100%;
+    padding: 5px;
+    border: 2px solid #08276A ;
+    
+   transform: translateY(-12px);
+
 }

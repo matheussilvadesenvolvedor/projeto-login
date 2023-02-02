@@ -17,7 +17,27 @@ div#formulario > p{
     font-size: 1.2em;
 }
 
+
 }
+div.campo >input{
+    transform: translateY(-12px);
+    font: 1em sans-serif;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #08276A ;
+
+}
+   
+    div.campo >span{
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+        color: #08276A;
+    }
+    form > div.campo {
+        margin: 10px 0px;}
 
 
 @media screen and (min-width: 992px) {
@@ -38,3 +58,22 @@ div#formulario > p{
         font-size: 1.5em;
     }
 }
+
+div.campo >input{
+    transform: translateY(-12px);
+    font: 1em sans-serif;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #08276A ;
+}
+div.campo >span{
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    color: #08276A;
+}
+    
+    form > div.campo {
+        margin: 10px 0px;}
