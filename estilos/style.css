@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*  
+#254774 azul medio
+#2966B6 azul claro forte
+#71B2E8 azul claro
+#08276A azul escuro
+
+*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: linear-gradient(to top ,  #2966B6 ,#08276A) ;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c5e3fc;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px #71B2E8 ;
+    transition: width 1s, heigth 1s;
+    
+}
+section#login >div#imagem {
+    display: block;
+    background : #08276A url(../imagens/pexels-nick-collins-1292998\ \(1\).jpg)  ;
+    background-size: cover;
+    height: 200px;
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.8em;
+}
+
+div.campo > label{
+    display: none;
+}
+form > input[type=submit]{
+display: block;
+font-size: 1em;
+width: 100%;
+height: 40px;
+background-color: #71B2E8;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+form > div.campo {
+    margin: 10px 0px;
+}
+form > input[type=submit]:hover{
+    background-color:#0c5ea1 ;
+}
+form > a.botao{
+display: block;
+font-size: 1em;
+width: 100%;
+height: 40px;
+background-color: white;
+color: #08276A;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+margin-top: 5px;
+padding: 5px;
+
+}
+form >a.botao:hover{
+    background-color:#08276A;
+    color: white;
+}
+form > a.botao > span{
+    font-size: 1em;
+}
